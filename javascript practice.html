@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation in JAVASCRIPT</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            background-color: orange;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        button {
+            margin: 10px;
+            margin-left: 94px;
+            border-radius: 10px;
+            padding: 5px;
+            background-color: blueviolet;
+            color: white;
+        }
+
+        input {
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .container {
+            border-radius: 9px;
+            height: 200px;
+            background-color: green;
+            width: 300px;
+            padding-top: 10px;
+            padding: 20px;
+            padding-bottom: 10px;
+        }
+
+        .error {
+            background: blue;
+
+            color: white;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Form Validation</h1>
+        <div class="error"></div>
+        <form action="" id="form">
+            <div class="first">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="second">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <button type="submit" id="btn">Submit</button>
+        </form>
+
+        <div class="list">
+            <ul class="li_input">
+
+            </ul>
+        </div>
+    </div>
+    <script src="first.js"></script>
+</body>
+
+</html>
